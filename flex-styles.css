@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    display: flex; /* this starts off FLEX */
+    align-items: center;
+    justify-content: space-between;
+    background-color: #063852;
+    padding: 1.5em 1em;
+    box-shadow: 0 -6px 10px 10px #011a27;
+    margin-bottom: 2em;
+}
+
+header h1 {
+    color: #f0810f;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+#mainh1 {
+    padding: 2.5em;
+}
+
+nav {
+    flex-grow: 3;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e6df44;
+    font-weight: 700;
+}
+
+
